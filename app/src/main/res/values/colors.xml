@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#152F4F</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#fa8000</color>
+    <color name="colorTuruncu">#fa8000</color>
+    <color name="colorKMavi">#152F4F</color>
+</resources>

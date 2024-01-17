@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fotoğraf Birleştirme</string>
+    <string name="stitch_mode_scans">Scans</string>
+    <string name="stitch_mode_panorama">Panorama</string>
+    <string name="pick_images_button">Resim Seç</string>
+    <string name="processing_images">Fotoğraflar İşleniyor</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        tools:ignore="RtlSymmetry">
+
+        <RadioButton
+            android:id="@+id/radio_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/stitch_mode_scans"
+            android:textColorHighlight="@color/colorKMavi" />
+
+        <RadioButton
+            android:id="@+id/radio_panorama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/stitch_mode_panorama"
+            android:textColorHighlight="@color/colorKMavi" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/pick_images_button"
+        android:textAllCaps="false"
+        android:background="@color/colorTuruncu"
+        />
+
+
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerInside" />
+
+
+
+
+</LinearLayout>
